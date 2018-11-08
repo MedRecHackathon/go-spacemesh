@@ -1,0 +1,6 @@
+# Please use 'create.sh' and 'connect.sh' instead of this script.
+
+# docker build -t spacemesh . && docker run -p 8545:8545 -dit spacemesh
+
+# docker run -p 8545:8545 -it spacemesh --name spacemesh /bin/bash -l
+# docker exec -it <container name> <command> 

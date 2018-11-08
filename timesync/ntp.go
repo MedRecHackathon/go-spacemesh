@@ -4,7 +4,7 @@ package timesync
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/spacemeshos/go-spacemesh/p2p/config"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/config"
 	"math/rand"
 	"net"
 	"sort"

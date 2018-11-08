@@ -1,6 +1,6 @@
 #!/bin/bash
 
-import_path="github.com/spacemeshos/go-spacemesh"
+import_path="github.com/MedRecHackathon/go-spacemesh"
 pkgs=`go list ./... | grep -vF vendor/`
 rootdir_files=`ls *.go`
 ignored_pkgs="."

@@ -2,7 +2,7 @@ package post
 
 import (
 	"bufio"
-	"github.com/spacemeshos/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/log"
 	"os"
 	"path"
 )

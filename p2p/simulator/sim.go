@@ -1,9 +1,9 @@
 package simulator
 
 import (
-	"github.com/spacemeshos/go-spacemesh/log"
-	"github.com/spacemeshos/go-spacemesh/p2p/node"
-	"github.com/spacemeshos/go-spacemesh/p2p/service"
+	"github.com/MedRecHackathon/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/node"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/service"
 	"io"
 	"sync"
 )

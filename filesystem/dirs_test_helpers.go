@@ -9,8 +9,8 @@ import (
 
 	"encoding/binary"
 
-	"github.com/spacemeshos/go-spacemesh/app/config"
-	"github.com/spacemeshos/go-spacemesh/crypto"
+	"github.com/MedRecHackathon/go-spacemesh/app/config"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
 )
 
 // SetupTestSpacemeshDataFolders sets up a data folder to this specific test

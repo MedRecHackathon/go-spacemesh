@@ -2,14 +2,14 @@
 package api
 
 import (
-	"github.com/spacemeshos/go-spacemesh/api/config"
-	"github.com/spacemeshos/go-spacemesh/api/pb"
-	"github.com/spacemeshos/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/api/config"
+	"github.com/MedRecHackathon/go-spacemesh/api/pb"
+	"github.com/MedRecHackathon/go-spacemesh/log"
 	"strconv"
 
 	"net"
 
-	"github.com/spacemeshos/go-spacemesh/p2p"
+	"github.com/MedRecHackathon/go-spacemesh/p2p"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

@@ -1,8 +1,8 @@
 package connectionpool
 
 import (
-	"github.com/spacemeshos/go-spacemesh/crypto"
-	"github.com/spacemeshos/go-spacemesh/p2p/net"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/net"
 	"math"
 
 	"bytes"

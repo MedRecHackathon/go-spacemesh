@@ -5,9 +5,9 @@ import (
 	"encoding/hex"
 	"fmt"
 	"github.com/gogo/protobuf/proto"
-	"github.com/spacemeshos/go-spacemesh/crypto"
-	"github.com/spacemeshos/go-spacemesh/log"
-	"github.com/spacemeshos/go-spacemesh/merkle/pb"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
+	"github.com/MedRecHackathon/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/merkle/pb"
 )
 
 // An mutable branch node

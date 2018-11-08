@@ -10,6 +10,6 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin/
 echo "export GOPATH=$GOPATH" >> /etc/profile
 echo "export PATH=\$PATH:/usr/local/go/bin:\$GOPATH/bin" >> /etc/profile
 
-cd $GOPATH/src/github.com/spacemeshos/go-spacemesh
+cd $GOPATH/src/github.com/MedRecHackathon/go-spacemesh
 
 make devtools

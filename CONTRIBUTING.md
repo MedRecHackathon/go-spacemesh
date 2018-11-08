@@ -2,7 +2,7 @@
 Thank you for considering to contribute to the go-spacemesh open source project. We welcome contributions large and small and we actively accept contributions.
 
 - go-spacemesh is part of [The Spacemesh open source project](https://spacemesh.io), and is MIT licensed free open source software.
-- Please make sure to scan the [open issues](https://github.com/spacemeshos/go-spacemesh/issues). 
+- Please make sure to scan the [open issues](https://github.com/MedRecHackathon/go-spacemesh/issues). 
 - Search the closed ones before reporting things, and help us with the open ones.
 - Make sure that you are able to contribute to MIT licensed free open software (no legal issues please).
 - Introduce yourself, ask questions about issues or talk about things in our [gitter dev channel](https://gitter.im/spacemesh-os/Lobby).
@@ -10,7 +10,7 @@ Thank you for considering to contribute to the go-spacemesh open source project.
 - **Have fun hacking away our blockchain future together with us!**
 
 # Getting Started
-- Browse [Help wanted issues](https://github.com/spacemeshos/go-spacemesh/labels/help%20wanted) and [good first issues](https://github.com/spacemeshos/go-spacemesh/labels/good%20first%20issue).
+- Browse [Help wanted issues](https://github.com/MedRecHackathon/go-spacemesh/labels/help%20wanted) and [good first issues](https://github.com/MedRecHackathon/go-spacemesh/labels/good%20first%20issue).
 - Still not sure? Get yourself familiar with the codebase by writing some tests. We never have enough of them.
 
 # Contributors Compensation
@@ -52,7 +52,7 @@ Please follow these guidelines for your PR to be reviewed and be considered for 
 # Working on a funded issue 
 
 ## Step 1 - Discover :sunrise_over_mountains:
-- Browse the [open funded issues](https://github.com/spacemeshos/go-spacemesh/labels/funded) in our github repo, or on our [gitcoin.io funded issues page](https://gitcoin.co/profile/spacemeshos).
+- Browse the [open funded issues](https://github.com/MedRecHackathon/go-spacemesh/labels/funded) in our github repo, or on our [gitcoin.io funded issues page](https://gitcoin.co/profile/spacemeshos).
 - Skip issues that another contributor is already actively working on.
 - Find a funded issue you'd like to be working on.
 - Ask any questions you may have about the work involved in the issue github page comments section.
@@ -70,4 +70,4 @@ Please follow these guidelines for your PR to be reviewed and be considered for 
 - Expect a review process that ensures that you have followed our code guidelines at that your design and implementation are solid. You are expected to revision your code based on reviewers comments.
 - You should receive your bounty as soon as your PR is approved and merged by one of our maintainers. 
 
-Please review our funded issues program [legal notes](https://github.com/spacemeshos/go-spacemesh/blob/master/legal.md).
+Please review our funded issues program [legal notes](https://github.com/MedRecHackathon/go-spacemesh/blob/master/legal.md).

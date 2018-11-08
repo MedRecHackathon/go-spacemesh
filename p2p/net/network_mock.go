@@ -1,8 +1,8 @@
 package net
 
 import (
-	"github.com/spacemeshos/go-spacemesh/crypto"
-	"github.com/spacemeshos/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
+	"github.com/MedRecHackathon/go-spacemesh/log"
 	"gopkg.in/op/go-logging.v1"
 	"math/rand"
 	"net"

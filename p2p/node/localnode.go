@@ -1,10 +1,10 @@
 package node
 
 import (
-	"github.com/spacemeshos/go-spacemesh/crypto"
-	"github.com/spacemeshos/go-spacemesh/filesystem"
-	"github.com/spacemeshos/go-spacemesh/log"
-	"github.com/spacemeshos/go-spacemesh/p2p/config"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
+	"github.com/MedRecHackathon/go-spacemesh/filesystem"
+	"github.com/MedRecHackathon/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/config"
 )
 
 // LocalNode implementation.

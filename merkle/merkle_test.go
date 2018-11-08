@@ -3,9 +3,9 @@ package merkle
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/spacemeshos/go-spacemesh/crypto"
-	"github.com/spacemeshos/go-spacemesh/filesystem"
-	"github.com/spacemeshos/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
+	"github.com/MedRecHackathon/go-spacemesh/filesystem"
+	"github.com/MedRecHackathon/go-spacemesh/log"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

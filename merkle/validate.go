@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/spacemeshos/go-spacemesh/merkle/pb"
+	"github.com/MedRecHackathon/go-spacemesh/merkle/pb"
 )
 
 // Validates integrity of tree rooted at root

@@ -3,9 +3,9 @@ package net
 import (
 	"fmt"
 	"github.com/gogo/protobuf/proto"
-	"github.com/spacemeshos/go-spacemesh/log"
-	"github.com/spacemeshos/go-spacemesh/p2p/config"
-	"github.com/spacemeshos/go-spacemesh/p2p/node"
+	"github.com/MedRecHackathon/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/config"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/node"
 	"github.com/stretchr/testify/assert"
 	"math/rand"
 	"sync"

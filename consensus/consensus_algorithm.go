@@ -1,7 +1,7 @@
 package consensus
 
 import (
-	"github.com/spacemeshos/go-spacemesh/consensus/pb"
+	"github.com/MedRecHackathon/go-spacemesh/consensus/pb"
 	"time"
 )
 

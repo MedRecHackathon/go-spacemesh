@@ -2,11 +2,11 @@ package config
 
 import (
 	"fmt"
-	apiConfig "github.com/spacemeshos/go-spacemesh/api/config"
-	consensusConfig "github.com/spacemeshos/go-spacemesh/consensus/config"
-	"github.com/spacemeshos/go-spacemesh/filesystem"
-	"github.com/spacemeshos/go-spacemesh/log"
-	p2pConfig "github.com/spacemeshos/go-spacemesh/p2p/config"
+	apiConfig "github.com/MedRecHackathon/go-spacemesh/api/config"
+	consensusConfig "github.com/MedRecHackathon/go-spacemesh/consensus/config"
+	"github.com/MedRecHackathon/go-spacemesh/filesystem"
+	"github.com/MedRecHackathon/go-spacemesh/log"
+	p2pConfig "github.com/MedRecHackathon/go-spacemesh/p2p/config"
 	"github.com/spf13/viper"
 	"path/filepath"
 )

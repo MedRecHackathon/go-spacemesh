@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/spacemeshos/go-spacemesh/filesystem"
-	"github.com/spacemeshos/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/filesystem"
+	"github.com/MedRecHackathon/go-spacemesh/log"
 	"github.com/stretchr/testify/assert"
 )
 

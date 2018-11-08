@@ -9,9 +9,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/spacemeshos/go-spacemesh/filesystem"
-	"github.com/spacemeshos/go-spacemesh/log"
-	"github.com/spacemeshos/go-spacemesh/p2p/config"
+	"github.com/MedRecHackathon/go-spacemesh/filesystem"
+	"github.com/MedRecHackathon/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/config"
 )
 
 // nodeFileData defines persistent node data.

@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spacemeshos/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/log"
 	"gopkg.in/op/go-logging.v1"
 
 	"fmt"
-	"github.com/spacemeshos/go-spacemesh/p2p/node"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/node"
 	"github.com/stretchr/testify/assert"
 	"sync"
 )

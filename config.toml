@@ -21,11 +21,11 @@ response-timeout = "2s"
 # Node Swarm Config
 [p2p.swarm]
 gossip = true
-bootstrap = false # turn this on for non-bootstrap nodes
+bootstrap = true # turn this on for non-bootstrap nodes
 bucketsize = 20 # Routing table bucket size. recommended higher for bootstrap node
 rtalpha = 4 # Routing table alpha
 randcon = 5 # Number of random connections (neighbors for gossip). increase on bigger networks decrease for small
-bootnodes = [] # this is an example
+bootnodes = ["0.0.0.0:7514/saF783x6YtBSba5ZQqK5cNm2purog2YcYTL46QYgL3Jf"] # this is an example
 
 # API Config
 [api]

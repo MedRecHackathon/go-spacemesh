@@ -2,8 +2,8 @@ package net
 
 import (
 	"fmt"
-	"github.com/spacemeshos/go-spacemesh/crypto"
-	"github.com/spacemeshos/go-spacemesh/p2p/delimited"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/delimited"
 	"github.com/stretchr/testify/assert"
 	"math/rand"
 	"net"

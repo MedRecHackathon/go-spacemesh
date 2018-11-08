@@ -1,8 +1,8 @@
 package p2p
 
 import (
-	"github.com/spacemeshos/go-spacemesh/p2p/config"
-	"github.com/spacemeshos/go-spacemesh/p2p/service"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/config"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/service"
 )
 
 // Service is a wrapper for service.Service to expose the Service interface to `p2p` clients

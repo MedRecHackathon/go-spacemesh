@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/jsonpb"
-	config "github.com/spacemeshos/go-spacemesh/api/config"
-	pb "github.com/spacemeshos/go-spacemesh/api/pb"
-	"github.com/spacemeshos/go-spacemesh/crypto"
+	config "github.com/MedRecHackathon/go-spacemesh/api/config"
+	pb "github.com/MedRecHackathon/go-spacemesh/api/pb"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

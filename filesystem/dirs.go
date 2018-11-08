@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/spacemeshos/go-spacemesh/app/config"
-	"github.com/spacemeshos/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/app/config"
+	"github.com/MedRecHackathon/go-spacemesh/log"
 )
 
 // Using a function pointer to get the current user so we can more easily mock in tests

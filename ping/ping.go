@@ -3,11 +3,11 @@ package ping
 import (
 	"errors"
 	"github.com/gogo/protobuf/proto"
-	"github.com/spacemeshos/go-spacemesh/crypto"
-	"github.com/spacemeshos/go-spacemesh/log"
-	"github.com/spacemeshos/go-spacemesh/p2p"
-	"github.com/spacemeshos/go-spacemesh/p2p/service"
-	"github.com/spacemeshos/go-spacemesh/ping/pb"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
+	"github.com/MedRecHackathon/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/p2p"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/service"
+	"github.com/MedRecHackathon/go-spacemesh/ping/pb"
 	"sync"
 	"time"
 )

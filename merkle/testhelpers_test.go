@@ -2,7 +2,7 @@ package merkle
 
 import (
 	"bytes"
-	"github.com/spacemeshos/go-spacemesh/filesystem"
+	"github.com/MedRecHackathon/go-spacemesh/filesystem"
 	"github.com/stretchr/testify/assert"
 	"path/filepath"
 	"testing"

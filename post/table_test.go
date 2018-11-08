@@ -1,8 +1,8 @@
 package post
 
 import (
-	config "github.com/spacemeshos/go-spacemesh/config"
-	"github.com/spacemeshos/go-spacemesh/crypto"
+	config "github.com/MedRecHackathon/go-spacemesh/config"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

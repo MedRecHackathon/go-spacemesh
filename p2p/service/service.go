@@ -1,6 +1,6 @@
 package service
 
-import "github.com/spacemeshos/go-spacemesh/p2p/node"
+import "github.com/MedRecHackathon/go-spacemesh/p2p/node"
 
 // Message is an interface to represent a simple message structure
 type Message interface {

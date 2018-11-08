@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"fmt"
 	"github.com/gogo/protobuf/proto"
-	"github.com/spacemeshos/go-spacemesh/crypto"
-	"github.com/spacemeshos/go-spacemesh/p2p/config"
-	"github.com/spacemeshos/go-spacemesh/p2p/net"
-	"github.com/spacemeshos/go-spacemesh/p2p/pb"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/config"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/net"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/pb"
 	"time"
 )
 

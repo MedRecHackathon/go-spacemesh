@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	cfg "github.com/spacemeshos/go-spacemesh/config"
+	cfg "github.com/MedRecHackathon/go-spacemesh/config"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

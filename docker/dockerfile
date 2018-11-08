@@ -1,0 +1,41 @@
+# Use an official Python runtime as a parent image
+FROM centos:7
+
+# Copy the current directory contents into the container at /app
+# COPY ./app /app
+# COPY package*.json ./
+
+RUN yum -y update && yum clean all
+RUN yum install -y gcc git make && yum clean all
+RUN rm -rf /var/cache/yum
+
+# install go
+RUN curl https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz -o /tmp/go1.10.3.tar.gz
+RUN tar -C /usr/local -xzf /tmp/go1.10.3.tar.gz
+ENV GOPATH=/go
+# ENV GOPATH=$HOME/src/
+ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
+RUN source /etc/profile
+
+# RUN go get -v github.com/MedRecHackathon/go-spacemesh
+# WORKDIR /go/src/github.com/MedRecHackathon/go-spacemesh/
+# RUN git checkout -b hackathon
+COPY ./ /app
+WORKDIR /app
+# RUN go build
+
+# Make ports available to the world outside this container
+EXPOSE 7513
+EXPOSE 9090
+
+# CMD ["npm", "start"]
+
+
+# Define environment variable
+# ENV NAME NodeJsTest
+
+# Run app.py when the container launches
+# CMD ["npm", "start"]
+
+# ENTRYPOINT source /etc/profile && /usr/eth/testNodes/deployTestNodes.sh && /bin/bash
+# ENTRYPOINT source /etc/profile && /usr/eth/testNodes/deployTestNodes.sh && /bin/bash

@@ -9,8 +9,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/spacemeshos/go-spacemesh/crypto"
-	"github.com/spacemeshos/go-spacemesh/p2p/net/wire"
+	"github.com/MedRecHackathon/go-spacemesh/crypto"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/net/wire"
 	"gopkg.in/op/go-logging.v1"
 	"sync/atomic"
 )

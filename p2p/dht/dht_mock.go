@@ -1,6 +1,6 @@
 package dht
 
-import "github.com/spacemeshos/go-spacemesh/p2p/node"
+import "github.com/MedRecHackathon/go-spacemesh/p2p/node"
 
 // MockDHT is a mocked dht
 type MockDHT struct {

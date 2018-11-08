@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/spacemeshos/go-spacemesh/version"
+	"github.com/MedRecHackathon/go-spacemesh/version"
 	"github.com/spf13/cobra"
 )
 

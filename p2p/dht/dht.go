@@ -2,11 +2,11 @@
 package dht
 
 import (
-	"github.com/spacemeshos/go-spacemesh/p2p/config"
-	"github.com/spacemeshos/go-spacemesh/p2p/node"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/config"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/node"
 
 	"errors"
-	"github.com/spacemeshos/go-spacemesh/p2p/service"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/service"
 	"time"
 )
 

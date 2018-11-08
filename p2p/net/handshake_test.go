@@ -2,9 +2,9 @@ package net
 
 import (
 	"fmt"
-	"github.com/spacemeshos/go-spacemesh/p2p/config"
-	"github.com/spacemeshos/go-spacemesh/p2p/node"
-	"github.com/spacemeshos/go-spacemesh/p2p/pb"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/config"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/node"
+	"github.com/MedRecHackathon/go-spacemesh/p2p/pb"
 	"github.com/stretchr/testify/assert"
 	"net"
 	"strconv"

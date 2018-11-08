@@ -1,0 +1,42 @@
+# sample spacemesh config file
+# use the config flag to start a node with a config file.
+# e.g $./go-spacemash -config ./config.toml
+
+# Main Config
+[main]
+data-folder = "~/.spacemesh"
+
+# Node Config
+[p2p]
+security-param = 20
+fast-sync = true
+tcp-port = 7513
+node-id = ""
+new-node= false # will try to load from file if this is false
+dial-timeout = "1m"
+conn-keepalive = "48h"
+network-id = 0 # 0 - MainNet, 1 - TestNet
+response-timeout = "2s"
+
+# Node Swarm Config
+[p2p.swarm]
+gossip = true
+bootstrap = false # turn this on for non-bootstrap nodes
+bucketsize = 20 # Routing table bucket size. recommended higher for bootstrap node
+rtalpha = 4 # Routing table alpha
+randcon = 5 # Number of random connections (neighbors for gossip). increase on bigger networks decrease for small
+bootnodes = [] # this is an example
+
+# API Config
+[api]
+grpc-server = true
+json-server = true
+grpc-port = 9091
+json-port = 9090
+
+# Time sync NTP Config
+[ntp]
+max-allowed-time-drift = "10s"
+ntp-queries = 5
+default-timeout-latency = "10s"
+refresh-ntp-interval = "30m"

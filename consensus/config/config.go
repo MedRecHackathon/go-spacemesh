@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/spacemeshos/go-spacemesh/log"
+	"github.com/MedRecHackathon/go-spacemesh/log"
 	"time"
 )
 

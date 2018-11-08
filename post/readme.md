@@ -3,7 +3,7 @@
 ### Task Overview
 - Let G be table be a large table with sequential binary data entries indexed as (0,...,2^H - 1) where each entry is of equal size (say 32 bits) where there are 2^H entries for some int H.
 - Leaves contain arbitrary fixed-size data (e.g. 32 bits).
-- Implement and benchmark the `Merkle Traversal in log space and time` algorithm as defined [here](https://github.com/spacemeshos/go-spacemesh/blob/master/research/szydlo-loglog.pdf) -> `Algorithm 4: Logarithmic Merkle Tree Traversal`.
+- Implement and benchmark the `Merkle Traversal in log space and time` algorithm as defined [here](https://github.com/MedRecHackathon/go-spacemesh/blob/master/research/szydlo-loglog.pdf) -> `Algorithm 4: Logarithmic Merkle Tree Traversal`.
 - The value of an internal node in the Merkle tree is the hash of its 2 children.
 - Given a leaf with index i into the table, compute the Merkle Proof for the leaf.
 - The Merkle proof is the set of the hashes of the siblings of the nodes on the path from the leaf to the root and the hash of the root. 
