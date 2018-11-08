@@ -6,6 +6,6 @@ import (
 	"github.com/MedRecHackathon/go-spacemesh/app"
 )
 
-func main() { // run the app
+func main() { // run the app.
 	app.Main()
 }
